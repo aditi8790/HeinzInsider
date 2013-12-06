@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="cs"><head><meta charset="utf-8"><title>Mapyst</title><meta name="description" content=""><meta name="keywords" content=""><meta name="author" content="David Kohout &amp; Tom&Atilde;&iexcl;&Aring;&iexcl; Lach - www.tomaslach.cz"><link rel="shortcut icon" href="favicon.ico"><link rel="stylesheet" href="css/main.css?v=1.0" media="screen,projection"><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script><script src="js/jquery.mousewheel-3.0.4.pack.js"></script><script src="js/jquery.fancybox-1.3.4.pack.js"></script><script src="js/custom.js"></script>
+
+<script type="text/javascript">
+    console.log("hi");
+</script>
+
+<script src="js/analytics.js" type="text/javascript"></script></head><body>            
+        
+        <header><div class="wrap">
+                <div id="header">   
+
+                    <!-- <a id="logo" href="./" title="Asterisk">Asterisk<span>*</span></a> -->
+                    <img src="img/logo.png" />
+                    
+                    <hr><nav><ul><li>
+                                <a href="index.html">
+                                    <strong>Home</strong>
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="about.html">
+                                    <strong>About Us</strong>
+                                    <span>Who we are</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="development.html">
+                                    <strong>Development</strong>
+                                    <span>How it works</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.html">
+                                    <strong>Contact Us</strong>
+                                    <span>Get in touch</span>
+                                </a>
+                            </li>
+                        </ul></nav></div> <!-- / #header -->
+
+                <hr><div id="intro" class="index-intro">
+                        
+                    <!-- <h1>Indoor Navigation</h1>
+                    <h2>at Carnegie Mellon University</h2>
+                    
+                    <p>Mapyst provides navigation and other useful information about the Carnegie Mellon campus. Utilizing data from building floor plans, Google Maps, and GPS, we guide you to your destination as fast as possible.</p>
+                    
+                    <a href="./" class="button"><span>More About Us</span></a>
+                    
+                    <div id="screens">
+                        <img src="images/screens.png" alt="Screenshots"></div>-->
+
+                    <a id="android-link" class="link-img" href="https://market.android.com/details?id=org.ncmproject.android&feature=search_result#?t=W251bGwsMSwyLDEsIm9yZy5uY21wcm9qZWN0LmFuZHJvaWQiXQ.." ></a>
+                    <a id="webapp-link" class="link-img" href="webapp/index.php" ></a>
+
+                </div> <!-- / #intro -->
+                
+                <hr><div id="subIntro">
+                        
+                    <div class="floatLeft">
+                        <!-- <h2 style="text-align:left;">"This is a great app!"</h2> -->
+                        <h2>"I'll definitely whip this out the next time I head down to [Carnegie] Mellon."</h2>                    
+                    </div>
+                    
+                    <!-- <a href="./" class="button floatRight" title="DOWNLOAD TEMPLATE"><span>DOWNLOAD TEMPLATE</span></a> -->
+
+                </div> <!-- / #subIntro -->
+                
+            </div>
+        </header><hr><div id="container">
+            <div id="content" class="wrap">                
+                
+                <!-- <div class="cols marginBottom30 clearFix">
+                    
+                    <div class="col1-3">
+                        <h2 class="separate">Android</h2>
+                        <div class="content withIcon icon1"><p>A mobile version of the application so that you can follow the directions as you walk to your destination</p>
+                        <a href="https://market.android.com/details?id=org.ncmproject.android&feature=search_result#?t=W251bGwsMSwyLDEsIm9yZy5uY21wcm9qZWN0LmFuZHJvaWQiXQ.." class="button floatRight" style="margin-right:40px;"><span>Download</span></a></div>
+                    </div>
+                    
+                    <div class="col1-3">
+                        <h2 class="separate">Webapp</h2>
+                        <div class="content withIcon icon2"><p>Plan your route from your computer and print out the directions. Supports all modern browsers.</p>
+                        <a href="webapp/index.html" class="button floatRight" style="margin-right:40px;"><span>Go To Webapp</span></a></div>
+                    </div>
+                    
+                    <div class="col1-3">
+                        <h2 class="separate">API</h2>
+                        <div class="content withIcon icon3"><p>We are working on an API so that other projects at Carnegie Mellon can use our location data.</p></div>
+                    </div>
+                    
+                </div> -->
+
+                <hr><h2 class="separate">About Mapyst</h2>
+                
+                <p><img src="img/screens.png" width="200px" height="120px" style="float:left; padding:20px" />Mapyst provides navigation and other useful information about the Carnegie Mellon campus. Utilizing data from building floor plans, Google Maps, and GPS, we guide you to your destination as fast as possible.  The app is especially useful for new students, visitors, and others who are unfamiliar with the campus.  Another great feature is an indicator telling you whether dining locations, athletic facilities, stores, and other places are open or closed.</p>
+
+                <br/><br/><br/><br/>
+                <hr><h2 class="separate">Open Source</h2>
+                
+                <p>Mapyst is now an open source project hosted on <a href="https://github.com/Mapyst/Mapyst">Github</a>. This makes it possible for others to make a similar application for other campuses. If you would like to bring the application to your campus, <a href="mailto:support@mapyst.com">let us know</a>. We may be able to help you collect the data and understand how everything works.</p>
+
+                
+                <hr><h2 id="features-title" class="separate">Features</h2>
+                
+                <div class="cols marginBottom30 clearFix">
+                    
+                    <div class="col1-3">
+                        <h3>Step by Step</h3>
+                        <div class="content"><p>Mapyst shows you each step to take whether they are inside or outside over building floor plans and Google Maps.</p></div>
+                    </div>
+                    
+                    <div class="col1-3">
+                        <h3>Custom Routes</h3>
+                        <div class="content"><p>You can customize your route to prefer elevators, stairs, indoors, outdoors, or even restrict your route to handicapped accessible paths.</p></div>
+                    </div>
+                    
+                    <div class="col1-3">
+                        <h3>Campus Info</h3>
+                        <div class="content"><p>The application also contains a list of popular locations on campus and information about them such as operating hours.</p></div>
+                    </div>
+                    
+                </div>
+                
+            </div> <!-- / .wrap -->
+        </div> <!-- / #container -->        
+        
+        
+        <footer><div id="footer">
+                
+                        <p class="light" style="margin-left:100px;">&copy; 2011 Asterisk., All Rights Reserved.<!--%@##--> Design provided by <a href="http://www.freewebtemplates.com/">Free Website Templates</a>.<!--##@%--></p>
+                
+            </div>
+        </footer></body></html>
